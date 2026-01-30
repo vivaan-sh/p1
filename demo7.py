@@ -1,14 +1,15 @@
+def check_key(my_dict, key):
+    if key in my_dict:
+        return "Found"
+    else:
+        return "Not Found"
+
+
 def main():
-    numbers = [3, 5, 3, 2, 5, 1, 2]
-
-    unique = []
-    for n in numbers:
-        if n not in unique:
-            unique.append(n)
-
-    print(unique)
+    my_dict = {"a": 1, "b": 2}
+    key = "b"
+    result = check_key(my_dict, key)
+    print(result)
 
 if __name__ == "__main__":
     main()
-
-
