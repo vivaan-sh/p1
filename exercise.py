@@ -7,7 +7,7 @@ def countlist():
             out[i] += 1
         else:
             out[i] = 1
-    print(out,"\n")
+    print(out,"\n")  
 
 def dictkeycheck():
     #2. Dictionary Key Check
